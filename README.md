@@ -27,7 +27,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 In order to compile and get your own library of voce jar, install this two offline jars in your local maven :
 
-- open command line point at [resources](https://github.com/jrichardsz/voce/offline-jars) in a cloned folder.
+- open command line point at [offline-jars](https://github.com/jrichardsz/voce/tree/master/offline-jars) in a cloned folder.
 
 - execute
 
