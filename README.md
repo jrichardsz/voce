@@ -75,8 +75,9 @@ After that, you can use this dependency in your maven projects:
 ...
 
 
-### And coding style tests
+### Voice Recognition usage
 
+See this proof of concept [https://github.com/jrichardsz/java-speech-recognition-apis/tree/master/voce](https://github.com/jrichardsz/java-speech-recognition-apis/tree/master/voce)
 ...
 
 
