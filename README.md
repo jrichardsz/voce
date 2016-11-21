@@ -1,6 +1,8 @@
 # Voce 2.0 with Maven
 
-Mirror of Voce Code, with my improvements related to upgrade build process with maven, use external and internal configurations, etc.
+Mirror of Voce Code, with my improvements related to upgrade build process with maven. 
+
+Keywords : Java Speech recognition api FreeTTS CMU Sphinx Speech Recognizer Text To Speech voce.sourceforge.net speech recognition using Java and Sphinx Pure Java speech recognition library java SpeechRecognition
 
 # Upstream 
 
