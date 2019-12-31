@@ -22,20 +22,18 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
+- Java 7 or 8
 - [Download Maven](http://maven.apache.org/download.cgi)
 - [Install Maven](http://maven.apache.org/install.html)
 
 In order to compile and get your own library of voce jar, install this two offline jars in your local maven :
 
-- open command line point at [offline-jars](https://github.com/jrichardsz/voce/tree/master/offline-jars) in a cloned folder.
-
-- execute
-
+- install required libraries with: 
 
 ```
-mvn install:install-file -Dfile=sphinx4-1.0.jar -DgroupId=edu.cmu.sphinx -DartifactId=sphinx4 -Dversion=1.0 -Dpackaging=jar
+mvn install:install-file -Dfile=offline-jars/sphinx4-1.0.jar -DgroupId=edu.cmu.sphinx -DartifactId=sphinx4 -Dversion=1.0 -Dpackaging=jar
 
-mvn install:install-file -Dfile=jsapi-1.0.jar -DgroupId=javax.speech -DartifactId=jsapi -Dversion=1.0 -Dpackaging=jar
+mvn install:install-file -Dfile=offline-jars/jsapi-1.0.jar -DgroupId=javax.speech -DartifactId=jsapi -Dversion=1.0 -Dpackaging=jar
 
 ```
 
@@ -47,17 +45,17 @@ mvn install:install-file -Dfile=jsapi-1.0.jar -DgroupId=javax.speech -DartifactI
 mvn clean package
 ```
 
-If no errors, a jar named voce.jar will be inside **target** folder
+If no errors, a jar named voce.jar will be inside **target** folder ready to use in your java projects
 
 ### Install
 
-- go to cloned folder and execute
+If no errors in compilation step, voce jar could be used as maven library.
+
+Just execute this:
 
 ```
 mvn clean install
 ```
-
-If no errors, voce jar will be installed in your local maven repository.
 
 After that, you can use this dependency in your maven projects:
 
